@@ -124,6 +124,12 @@ main {
   padding-top: 4rem;
 }
 
+@media (max-width: 800px) {
+  main {
+    padding-top: 5rem;
+  }
+}
+
 /**Index.html**/
 
 .carousel-content {
@@ -142,9 +148,12 @@ main {
   display: inline-block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .carousel-content .homepage-text{
     font-size: 2.5rem;
+  }
+  .carousel-content .hp-small {
+    font-size: 1rem;
   }
   .carousel-content a {
     font-size: 1rem;
@@ -154,6 +163,9 @@ main {
 @media (max-width: 530px) {
   .carousel-content .homepage-text{
     font-size: 1.8rem;
+  }
+  .carousel-content .hp-small {
+    font-size: 0.8rem;
   }
   .carousel-content a {
     font-size: 0.8rem;
