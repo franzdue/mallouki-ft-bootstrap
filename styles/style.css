@@ -7,11 +7,6 @@ main {
   padding-top: 4rem;
 }
 
-@media (max-width: 800px) {
-  main {
-    padding-top: 5rem;
-  }
-}
 /**Top-Scroll Btn**/
 
 #scroll-to-top {
